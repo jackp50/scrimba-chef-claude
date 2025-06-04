@@ -2,7 +2,7 @@
 export default function Header() {
     return (
         <header>
-            <h1>Chef Claude</h1>
+            <h1>AI Chef</h1>
         </header>
     )
 }

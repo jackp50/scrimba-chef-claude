@@ -22,6 +22,9 @@ export default function Main() {
 
     return (
         <main>
+            <p className="recipe-instruction">
+                Add at least four ingredients to the list for AI chef to make a suggestion!
+            </p>
             <form action={addIngredient} className="add-ingredient-form">
                 <input
                     type="text"
