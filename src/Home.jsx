@@ -17,6 +17,8 @@ export default function Main() {
         setIngredients(prevIngredients => [...prevIngredients, newIngredient])
     }
 
+    console.log(import.meta.env.VITE_API_KEY)
+
     return (
         <main>
             <form action={addIngredient} className="add-ingredient-form">
